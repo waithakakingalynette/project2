@@ -1,0 +1,109 @@
+.container{
+    background-color: navajowhite;
+}
+
+#imag{
+    margin-left: 40%;
+    margin-top: -4%;
+}
+#image{
+    width: 230px;
+    height: 170px;
+}
+#image1{
+  margin-left: 25px;
+}
+#image2{
+    margin-left: 40px;
+}
+#image3{
+    margin-left: 45px;
+}
+#image4{
+    margin-top: 3%;
+}
+
+#image5{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+#image6{
+    margin-top: 3%;
+    width: 250px;
+    height: 170px;
+    margin-left: 15%;
+}
+
+#image8{
+    margin-left: 10%;
+    height:180px ;
+}
+
+#image9{
+    margin-left: 10%;
+    height: 180px;
+}
+
+.awereness{
+    font-family: monospace;
+}
+
+
+
+
+
+    /* Mobile Responsive CSS */
+@media screen and (min-width:420px)and(max-width:745px){
+    container{
+        background-color: navajowhite;
+        width: 100%;
+    }
+    
+    .imag img{
+        margin-left: -3%;
+        margin-top: -4%;
+    }
+    #image1{
+      /* margin-left: 25px; */
+      width: 100px;
+      margin-top: 2%;
+    }
+    .images{
+        width: 150px;
+    }
+    #image2{
+        /* margin-left: 40px; */
+    }
+    #image3{
+        /* margin-left: 45px; */
+    }
+    #image4{
+        margin-top: 3%;
+    }
+    
+    #image5{
+        margin-top: 3%;
+        /* margin-left: 10%; */
+    }
+    
+    #image6{
+        margin-top: 3%;
+        width: 250px;
+        height: 170px;
+        /* margin-left: 15%; */
+    }
+    
+    #image8{
+        margin-left: 10%;
+    }
+    
+    #image9{
+        margin-left: 10%;
+    }
+    
+    .awereness{
+        font-family: monospace;
+        width: 90%;
+    }
+}
